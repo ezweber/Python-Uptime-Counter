@@ -4,7 +4,7 @@ import os
 uptime = -1
 
 while True:
-    cpu_usage = psutil.cpu_percent(2)
+    cpu_usage = psutil.cpu_percent(60)
     uptime += 1
     print("I have been awake for:")
     print(uptime, " Minutes")
